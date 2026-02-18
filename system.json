@@ -1,0 +1,55 @@
+{
+  "id": "lam",
+  "title": "Luv & Mutants",
+  "description": "An implementation of the adaptable one-page Lasers & Feelings system by John Harper.",
+  "version": "0.0.4",
+  "compatibility": {
+    "minimum": 11,
+    "verified": 11.315
+  },
+  "url": "https://github.com/keirashepherd/fvtt-luv-and-mutants",
+  "manifest": "https://raw.githubusercontent.com/keirashepherd/fvtt-luv-and-mutants/master/system.json",
+  "download": "https://github.com/keirashepherd/fvtt-luv-and-mutants/archive/refs/heads/lam.zip",
+  "templateVersion": 2,
+  "author": "keirashepherd",
+  "authors": [],
+  "contributor": ["Parker S."],
+  "packs": [
+    {
+      "name": "create-a-space-adventure",
+      "label": "Create a Space Adventure",
+      "system": "lam",
+      "type": "RollTable",
+      "path": "./packs/create-a-space-adventure"
+    },
+    {
+      "name": "standard-space-adventure-generator",
+      "label": "Standard Space Adventure Generator",
+      "system": "lam",
+      "type": "Macro",
+      "path": "./packs/standard-space-adventure-generator"
+    },
+    {
+      "name": "lasers-and-feelings-rules",
+      "label": "Lasers & Feelings PDF",
+      "system": "lam",
+      "type": "JournalEntry",
+      "path": "./packs/lasers-and-feelings-rules"
+    }
+  ],
+  "esmodules": ["module/init.js"],
+  "styles": [
+    "styles/simple.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "gridDistance": 5,
+  "gridUnits": "ft",
+  "primaryTokenAttribute": "theOnlyStat",
+  "license": "LICENSE.txt"
+}
