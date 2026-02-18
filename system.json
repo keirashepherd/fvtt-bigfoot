@@ -1,15 +1,15 @@
 {
-  "id": "lam",
-  "title": "Luv & Mutants",
+  "id": "bf",
+  "title": "Oh, Dang! Bigfoot stole my car with my friend's birthday present inside",
   "description": "An implementation of the adaptable one-page Lasers & Feelings system by John Harper.",
-  "version": "0.0.4",
+  "version": "0.0.1",
   "compatibility": {
     "minimum": 11,
     "verified": 11.315
   },
-  "url": "https://github.com/keirashepherd/fvtt-luv-and-mutants",
-  "manifest": "https://raw.githubusercontent.com/keirashepherd/fvtt-luv-and-mutants/master/system.json",
-  "download": "https://github.com/keirashepherd/fvtt-luv-and-mutants/archive/refs/heads/lam.zip",
+  "url": "https://github.com/keirashepherd/fvtt-bigfoot",
+  "manifest": "https://raw.githubusercontent.com/keirashepherd/fvtt-bigfoot/master/system.json",
+  "download": "https://github.com/keirashepherd/fvtt-bigfoot/archive/refs/heads/bf.zip",
   "templateVersion": 2,
   "author": "keirashepherd",
   "authors": [],
@@ -18,21 +18,21 @@
     {
       "name": "create-a-space-adventure",
       "label": "Create a Space Adventure",
-      "system": "lam",
+      "system": "bf",
       "type": "RollTable",
       "path": "./packs/create-a-space-adventure"
     },
     {
       "name": "standard-space-adventure-generator",
       "label": "Standard Space Adventure Generator",
-      "system": "lam",
+      "system": "bf",
       "type": "Macro",
       "path": "./packs/standard-space-adventure-generator"
     },
     {
       "name": "lasers-and-feelings-rules",
       "label": "Lasers & Feelings PDF",
-      "system": "lam",
+      "system": "bf",
       "type": "JournalEntry",
       "path": "./packs/lasers-and-feelings-rules"
     }
